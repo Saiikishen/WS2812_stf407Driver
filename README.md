@@ -245,11 +245,3 @@ Implement helpers like:
 - `WS2812_SetZone(start, end, r,g,b)`
 - Zone-specific chase/blink loops
 Then call `WS2812_Send()` once per frame so both zones update together.
-
----
-
-## 13) License
-Add your preferred license (MIT/Apache-2.0/etc.) if you plan to share this publicly.
-```
-
-If you want, paste the *current* `ws2812.h` here (especially your `#define MAX_LED`, `#define USE_BRIGHTNESS`, and function prototypes), and I’ll tailor the README’s API section so it matches your exact header 1:1.
